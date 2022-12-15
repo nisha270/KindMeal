@@ -1,0 +1,177 @@
+#first1{
+    height: 250%;
+    margin: solid black;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    width: 28%;
+    height: 100%;
+    margin: solid red;
+   
+    margin-left: 170px;
+}
+
+.menubar{
+    text-align: center;
+   position: relative;
+  
+   width: 100%;
+   
+    
+}
+.menubar>ul{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 45px;
+    width: 99%;
+    margin-left: -19px;
+    background-color:rgb(79, 146, 79);
+   
+    align-items: center;
+    
+}
+.menubar>ul>li{
+font-size: 19px;
+
+height: 30px;
+width: 100%;
+margin-right: 50px;
+
+}
+.menubar>ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.menubar>ul>li>a>b:hover{
+    color: red;
+   
+}
+/* .menubar>ul>:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+} */
+/* 
+=================================================================== */
+
+#semtop{
+    width: 103%;
+    height: 260px;
+    margin-top: -18px;
+    background-color: rgb(228, 221, 221);
+    margin-left: -33px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#d1{
+    width: 50%;
+    height: 80%;
+    
+}
+#d2{
+    width: 21%;
+    text-align: center;
+    height: 57%;
+    margin-top: 70px;
+    border-radius: 11px;
+    background-color: aliceblue;
+
+  
+}
+#d2>button{
+    width: 70%;
+    font-size: 20px;
+    height: 40px;
+    margin-top: -8px;
+    background-color: rgb(206, 19, 19);
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+#d2>button:hover{
+    background-color: plum;
+}
+
+#d2>p{
+    margin-top: -15px;
+}
+
+/* ================================================================= */
+
+#serc{
+    width: 80%;
+    margin: auto;
+
+    height: 95px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#d3{
+    width: 47%;
+}
+#d4{
+    width: 60%;
+    height: 40%;
+   margin-left: -10px;
+}
+#d3>button{
+    width: 31%;
+    font-size: 15px;
+    height: 36px;
+    margin-top: -8px;
+    border: rgb(110, 102, 102);
+    background-color:wheat;
+ 
+   
+    margin: 2px;
+    border-radius: 5px;
+}
+/* ================================================================= */
+
+#sel1{
+    text-align: right;
+}
+#sel1>label{
+    font-size: 20px;
+    
+}
+#sel1>select{
+    width: 28%;
+    font-size: 15px;
+    height: 41px;
+margin-right: 5px;
+border-radius: 7px;
+border:solid gray;
+}
+#sel1>button{
+    width: 18%;
+    font-size: 15px;
+    height: 38px;
+    margin-top: -8px;
+   color: aliceblue;
+ border: none;
+   background-color: rgb(222, 23, 23);
+    margin: 2px;
+    border-radius: 5px;
+}
+#sel1>input{
+    width: 35%;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 7px;
+    border:solid gray;
+}
+#d3>button:hover{
+    color:white;
+    background-color:rgb(79, 146, 79);
+   
+}
+#sel1>button:hover{
+    background-color: pink;
+}
