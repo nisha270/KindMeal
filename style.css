@@ -29,10 +29,10 @@ font-family: sans-serif;
     align-items: center;
     justify-content: space-evenly;
 }
-#logsign>div{
+/* #logsign>div{
     /* border: solid 1px; */
     /* gap: 10px; */
-}
+ */
 
 #header_list2{
     /* border: solid 1px purple; */

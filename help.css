@@ -1,11 +1,11 @@
 #nav {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 140px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: max-content;
   display: flex;
   margin: auto;
@@ -43,7 +43,7 @@
   /* border: 1px solid teal; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border: none;
-  height: 180rem;
+  height: 150rem;
   padding: 30px;
   /* padding-left: 10px; */
   /* height: 500px; */
@@ -66,7 +66,6 @@
 #right h3 {
   margin-top: 6%;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 5;
 }
 
@@ -75,3 +74,97 @@
   border: 1px solid teal;
   height: 400px;
 }
+/* --------------------------------------------------------- */
+
+
+
+
+.menubar{
+    text-align: center;
+   position: relative;
+  margin: auto;
+   width: 100%;
+   
+    
+}
+.menubar>ul{
+
+ width: 70%;
+   
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    /* margin-left: -19px;*/
+    background-color:rgb(14, 174, 118); 
+   
+    align-items:center;  
+    
+}
+.menubar>ul>li{
+font-size: 19px;
+font-family: Arial, Helvetica, sans-serif;
+
+height: 30px;
+width: 100%;
+/* margin-right: 50px; */
+
+}
+.menubar>ul>li>a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+
+.menubar>ul>li>a>b:hover{
+    color: red;
+   
+}
+/* ------------------------------------------------------------ */
+
+
+#footer{
+  background-color: #2bb673;
+}
+#f1c{
+  margin: auto;
+  margin-top: 12px;
+  /* border: 1px solid black; */
+  display: flex;
+  height: 350px;
+  width: 70%;
+}
+
+#f1c div{
+  /* border: 1px solid red; */
+  width: 100%;
+  /* height: 50px; */
+}
+  /* background-color: black;
+  
+  #f2{
+    border: 1px solid darkgreen;
+  height: 40px;
+  }
+  */
+
+  #f1c h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+  }
+  
+  #f1c p{
+    font-size: 13px;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+  }
+  
+  #f2 p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+    }
