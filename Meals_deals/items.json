@@ -1,73 +1,314 @@
 [
     {
+        "id":"1",
         "images":"img/1.jpg",
         "title": "Korean & Chinese Feast",
-        "description":"Feast on our signature Korean & Chinese cuisine, as well as hotpot and Western meals!"
-    
+        "description":"Feast on our signature Korean & Chinese cuisine, as well as hotpot and Western meals!",
+        "full":"img/full1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png"
+
     },
 
 
     {
+        "id":"2",
         "images":"img/2.jpg",
         "title": "Tasty, Joyful Moments",
-        "description":"We are committed to sustainability and plant-based diet.When food is melting into our mouths with an Unami flavor, life becomes like the smile of a mother looking at her child, like the sunset of the sky when everything is ready for loving & living a simple Moment of JOY."
-    
+        "description":"We are committed to sustainability and plant-based diet.When food is melting into our mouths with an Unami flavor.",
+        "full":"img/empty1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png"  
     },
 
 
     {
+        "id":"3",
         "images":"img/3.jpg",
         "title": "Churros, Coffee & Meals",
-        "description":"Think of Churros, think of PCLO Cafe!Each batch of eggless Churros is made with passion and from scratch in our kitchen. Which is why you can only expect to have the best Churros experience with us!"
+        "description":"Think of Churros, think of PCLO Cafe!Each batch of eggless Churros is made with passion and from scratch in our kitchen.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
     
     },
 
     {
+        "id":"4",
         "images":"img/4.jpg",
         "title": "Simply Delectable Meals",
-        "description":"Simply Good Food delights you with our passion for authentic ingredients, honest cooking, and an enjoyable atmosphere.We serve you delicious, clean and heartful plant-based meals, hoping to contribute positively on your health and environment."
+        "description":"Simply Good Food delights you with our passion for authentic ingredients, honest cooking, and an enjoyable atmosphere.We serve you delicious, clean and heartful plant-based meals,.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
     
     },
 
     {
+        "id":"5",
         "images":"img/5.jpg",
         "title": "Dining Bowl Asian Delicacies",
-        "description":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an environment of nice wall paintings and friendly people."
+        "description":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an environment of nice wall paintings and friendly people.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
     
     },
 
     {
         "images":"img/6.jpg",
         "title": "Malaysian Favorites & Ramen",
-        "description":"A meat-free restaurant run by a small-town girl, serving local cuisine prepared and cooked with plenty of love."
+        "description":"A meat-free restaurant run by a small-town girl, serving local cuisine prepared and cooked with plenty of love.",
+        "full":"img/full1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png" 
     
     },
 
     {
         "images":"img/7.jpg",
         "title": "Blend of Asian Flavors",
-        "description":"Let us Figure Out the most delicious blend of Asian flavors, pampering you within a relaxing atmosphere!"
+        "description":"Let us Figure Out the most delicious blend of Asian flavors, pampering you within a relaxing atmosphere!",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
     
     },
 
     {
         "images":"img/8.jpg",
         "title": "Scrumptious Croutons",
-        "description":"Croutons brings you a sumptuous variety of international cuisines."
+        "description":"Croutons brings you a sumptuous variety of international cuisines.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/full3.png" 
     
     },
 
     {
         "images":"img/9.jpg",
         "title": "Malaysian Vegan Experience",
-        "description":"Indulge in Malay-Indo fusion cuisine, a plant-based comfort food and healthy pleasure!"
+        "description":"Indulge in Malay-Indo fusion cuisine, a plant-based comfort food and healthy pleasure!",
+        "full":"img/empty1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png" 
     
     },
 
     {
         "images":"img/10.jpg",
         "title": "Earth-Friendly Meals",
-        "description":"Indulge in a wide variety of delicious meat-free cuisines, and contribute to a better Earth and environment!"
+        "description":"Indulge in a wide variety of delicious meat-free cuisines, and contribute to a better Earth and environment!",
+        "full":"img/empty1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/11.jpg",
+        "title": "Dining Bowl Asian Delicacies",
+        "description":"Dine in this authentic cozy Chinese environment with any items from the menu, made with fresh and quality ingredients, in an environment of nice wall paintings and friendly people.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/12.jpg",
+        "title": "Scrumptious Croutons",
+        "description":"Croutons brings you a sumptuous variety of international cuisines.Indulge in any of the meat-free items from our menu below:",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/full3.png" 
+    
+    },
+
+    {
+        "images":"img/13.jpg",
+        "title": "Rawsome Lifestyle",
+        "description":"Enjoy healthy, guilt-free, raw food meals artfully crafted for a nutritious and delicious experience.",
+        "full":"img/full1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/14.jpg",
+        "title": "Malaysian Vegan Experience",
+        "description":"Indulge in Malay-Indo fusion cuisine, a plant-based comfort food and healthy pleasure!",
+        "full":"img/empty1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/15.jpg",
+        "title": "Western Cuisine & Local Delights",
+        "description":"Ador Cafe is committed to serving you some of the finest meatless meals in Malaysia.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/16.jpg",
+        "title": "Homemade Sandwiches & Open Toasts",
+        "description":"Enjoy our healthy homemade sandwich loaves and open toasts, all vegan and undergo natural yeast fermentation.",
+        "full":"img/empty1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/17.jpg",
+        "title": "Simple Is the Best",
+        "description":"We strive to delight you with simple yet tasty and nutritious meals that you would simply love!",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/18.jpg",
+        "title": "Bingsu & Desserts",
+        "description":"Indulge in our perfectly decadent desserts of Bingsu, toasts, waffles and homemade pastries.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/19.jpg",
+        "title": "Cozy Oriental Dining",
+        "description":"This place brings back memories to those days where we would have such delicious authentic meals for festive eats.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/20.jpg",
+        "title": "Hearty Comfort Food",
+        "description":"Relish in tasty, nutritious oriental & western delicacies amidst our peaceful, cozy environment.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/21.jpg",
+        "title": "Malaysian Vegan Experience",
+        "description":"Indulge in Malay-Indo fusion cuisine, a plant-based comfort food and healthy pleasure!",
+        "full":"img/empty1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/22.jpg",
+        "title": "Wholesome Western Experience",
+        "description":"Enjoy delicious, wholesome Western cuisine at our cozy, relaxing cafe while we serenade you with our artsy ambiance and musical mood",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+
+    {
+        "images":"img/23.jpg",
+        "title": "Healthy, Sustainable Meals",
+        "description":"Experience healthy, sustainable living with our delicious and affordable meat-free meals.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/24.jpg",
+        "title": "Healthy Personal Salad",
+        "description":"Enjoy a crispy, crunchy adult-sized salad prepared with fresh greens, fruits and healthy ingredients!",
+        "full":"img/empty1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/25.jpg",
+        "title": "Ahimsa Online Store",
+        "description":"Ahimsa's online store features an innovative series of food products unique in taste, nutrition and health.",
+        "full":"img/empty1.png",
+        "full1":"img/empty2.png",
+        "full2":"img/empty3.png"  
+    
+    },
+
+    {
+        "images":"img/26.jpg",
+        "title": "Blend of Asian Flavors",
+        "description":"Let us Figure Out the most delicious blend of Asian flavors, pampering you within a relaxing atmosphere!",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/27.jpg",
+        "title": "Pies Conquer The World",
+        "description":"When Pies conquer the world, you sit back, relax and have pies.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/28.jpg",
+        "title": "Buon Appetito at Table9",
+        "description":"Indulge in a creative fare of Italian cuisine and Korean-inspired drinks in the cozy atmosphere of Table9.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/29.jpg",
+        "title": "Nature Dining",
+        "description":"Camp Forest presents a pure, natural dining ambience, serving you a healthy, delectable selection of fusion Chinese and Western delicacies.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
+    
+    },
+
+    {
+        "images":"img/30.jpg",
+        "title": "Salads, Sammich and Juices For 2",
+        "description":"Camp Forest presents a pure, natural dining ambience, serving you a healthy, delectable selection of fusion Chinese and Western delicacies.",
+        "full":"img/full1.png",
+        "full1":"img/full2.png",
+        "full2":"img/empty3.png" 
     
     }
 ]

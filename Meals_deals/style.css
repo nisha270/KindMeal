@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #FCFCFC;
 }
 
 /****************** top *******************/
@@ -42,6 +43,8 @@ width: 30em;
 
 .inputs{
     margin-left: 12em;
+    display: flex;
+    gap: 20px;
     
 }
 .inputs>input{
@@ -53,7 +56,7 @@ width: 30em;
 
 .inputs>select{
     border-color: transparent;
-    padding: 5px 30px 5px 00px;    
+    padding: 5px 30px 5px 10px;    
     color: #888888;
     font-size: 16px;
 }
@@ -79,13 +82,14 @@ width: 30em;
 
 /*---- mid ----*/
 #mid1{
-    margin-left: 13em;
+    margin-left: 12em;
+    padding-bottom: 10px;
 }
 .pages{
     padding-top: 2em;
     display: flex;
 }
-.pages>span>a{
+.pages>span>p{
     margin-left: 1em;
     text-decoration: none;
     color:#2184FF ;
@@ -93,7 +97,105 @@ width: 30em;
 
 .pages>button{
     margin-left: 58em;
-    background-color: whitesmoke;
+    background-color: #E0E0E0;
     border-color: transparent;
     padding: 5px 10px 5px 10px ;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
 }
+
+
+#items{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 220px;
+    row-gap: 20px;
+    column-gap: 60px;
+}
+
+.item{
+    width: 500px;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item>img{
+    height: 300px;
+    width:  500px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    
+
+}
+
+.tit>h3{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.item>p{
+    font-size: 13px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+
+}
+.tit{
+    margin-left: 10px;
+
+}
+.my{
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    background-color: #F53838;
+    color: white;
+    border-color: transparent;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.item_img{
+   height: 35px;
+   width: 35px;
+   display: flex;
+   gap: 8px;
+   margin-top: 20px;
+   margin-right: 80px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.kind{
+    margin-top: 20px;
+}
+.kind>h2{
+    line-height: 30px;
+    text-align: center;
+    color: #F53838;
+}
+.off{
+    margin-top: 20px;
+}
+.off>h2{
+    line-height: 30px;
+    text-align: center;
+    color: #888888;
+    font-weight: 300;
+}
+
+.last{
+    padding-top: 50px;
+    margin-left: 150px;
+    width: auto;
+    height: 100%;
+}
+
+.last1{
+    background-color: #E0E0E0;
+}
+
