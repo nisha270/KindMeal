@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/****************** top *******************/
+.top_t1{
+display: flex;
+color: #444444;
+margin-left: 8em;
+padding-top: 1em;
+width: 30em;
+}
+
+.top_t1{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 37px;
+}
+
+.top_t1>span{
+    color: #888888;
+    padding-left: 1em;
+}
+#top_t{
+    width: 100%;
+    background-color: #F0F0F0;
+    padding-bottom: 2em;
+}
+
+#top_t>p{
+    font-size: 14px;
+    font-weight: 1em;
+    margin-left: 15em;
+    width: 74em;
+    padding-bottom: 2em;
+}
+
+.inputs{
+    margin-left: 12em;
+    
+}
+.inputs>input{
+    border-color: transparent;
+    padding: 5px 30px 5px 00px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inputs>select{
+    border-color: transparent;
+    padding: 5px 30px 5px 00px;    
+    color: #888888;
+    font-size: 16px;
+}
+
+.No1{
+    background-color: #F53838;
+    padding: 5px 50px 5px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border-color: transparent;    
+}
+
+.No2{
+    background-color: #04BE5A;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border-color: transparent;    
+}
+
+
+/*---- mid ----*/
+#mid1{
+    margin-left: 13em;
+}
+.pages{
+    padding-top: 2em;
+    display: flex;
+}
+.pages>span>a{
+    margin-left: 1em;
+    text-decoration: none;
+    color:#2184FF ;
+}
+
+.pages>button{
+    margin-left: 58em;
+    background-color: whitesmoke;
+    border-color: transparent;
+    padding: 5px 10px 5px 10px ;
+}
