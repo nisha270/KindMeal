@@ -2,13 +2,18 @@ let arr4=JSON.parse(localStorage.getItem("recip1"))||[]
 displaycard(arr4)
 
 
+
+
 function displaycard(data){
+  document.querySelector("#prods").innerHTML = "";
     // document.querySelector("#product-container").innerHTML="";
       data.forEach(function(element){
       //for(i=0;i<data.length;i++) { 
         let div1mai=document.createElement("div")
         div1mai.setAttribute("class","prodit")
 
+
+        
 
         let div00=document.createElement("div")
         div00.setAttribute("id","dd0")
@@ -90,3 +95,31 @@ hp.append(aa1,br2,para)
     
       
     }
+
+
+    
+data=JSON.parse(localStorage.getItem("recip1"))||[]
+
+function Regions(){
+  let selected = document.querySelector("#sell").value;
+  
+  console.log(selected);
+  
+  let filtered = data.filter(function(elem){
+      av=elem.tname2 == selected;
+      
+      
+      return av;
+     
+  });
+
+ 
+
+  displaycard(filtered);
+  if(selected=="All Location"){
+    displaycard(arr4)
+   }
+  
+}
+
+
