@@ -24,7 +24,8 @@ function displaycard(data){
 
          let hh1=document.createElement("h4")
          let aa=document.createElement("a")
-let date1="Dec 14th 2022"
+// let date1="Dec 14th 2022"
+
 aa.setAttribute("href","#")
          aa.innerText=element.tname2
          let br1=document.createElement("br")
@@ -32,7 +33,7 @@ aa.setAttribute("href","#")
          let but1=document.createElement("button")
          but1.innerText="View"
 
-         hh1.append(aa,br1,date1)
+         hh1.append(aa,br1,element.tname0)
 div00.append(imag1,hh1,but1)
 
         
@@ -106,7 +107,7 @@ function Regions(){
   console.log(selected);
   
   let filtered = data.filter(function(elem){
-      av=elem.tname2 == selected;
+      av=elem.tname0 == selected;
       
       
       return av;

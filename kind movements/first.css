@@ -1,3 +1,7 @@
+
+
+
+
 #first1{
     height: 250%;
     margin: solid black;
@@ -181,7 +185,7 @@ border:solid gray;
 #prods{
    
     width: 88%;
-    height: 3000px;
+    height: 1700px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(30,1fr);
@@ -191,7 +195,7 @@ border:solid gray;
 }
 .prodit{
    width: 96%;
-
+margin-top: 15px;
     text-align: center;
     height: 520px;
     border-radius: 10px;
