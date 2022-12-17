@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Kind Meal</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel = "icon" href = 
+"./images/icon_img.png" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./help.css">
 </head>
 
 <body>
-     <header id="header_main">
+
+    <header id="header_main">
         <div id="header_container">
             <div id="header_list1">
                 <div id="logo">
@@ -18,78 +23,132 @@
                 </div>
                 <div id="socialy">
                     <div id="header_social">
-                        <a href="#"><img src="https://www.kindmeal.my/images/follow_facebook_grey.png"
+                        <a href="https://www.facebook.com/KindMeal.my"><img src="https://www.kindmeal.my/images/follow_facebook_grey.png"
                                 alt="Facebook"></img></a>
                     </div>
                     <div id="header_social">
-                        <a href="#"><img src="https://www.kindmeal.my/images/follow_twitter_grey.png"
+                        <a href="https://twitter.com/KindMeal"><img src="https://www.kindmeal.my/images/follow_twitter_grey.png"
                                 alt="twitter"></img></a>
                     </div>
                     <div id="header_social">
-                        <a href="#"><img src="https://www.kindmeal.my/images/follow_blog_grey.png" alt="link"></img></a>
+                        <a href="./kind movements/kind.html"><img src="https://www.kindmeal.my/images/follow_blog_grey.png" alt="link"></img></a>
                     </div>
                 </div>
                 <div id="logsign">
-                    <div id="login">
-                        Login
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Sign Up</button>
+            
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+            
+                        <!-- Modal content -->
+                        <div class="modal-content"
+                        style="background-image: url('./images/login_img.jpeg'); background-repeat: no-repeat; height: auto;">
+                           
+                            <span class="close">&times;</span>
+                            <div id="main_pop">
+                                <div>
+                                    <img src="./images/logo-kindmeal.png" alt="logo" id="logoo"><br>
+                                    Youe Full Name <br>
+                                    <input type="text" name="name" class="inps" id="name"placeholder="Enter your Full Name"><br>
+                                   
+                                    Username <br>
+                                    <input type="text" name="username" class="inps" id="username"placeholder="Enter your Nick Name"><br>
+                                     Your E-mail <br>
+                                    <input type="email" name="email" class="inps" id="email"placeholder="Enter your E-mail"><br>
+                                     Your Password <br>
+                                     <input type="password" class="inps" name="password" id="password" placeholder="Enter your Password"><br>
+                                     <a href="#"><button id="sign_">Sign Up</button></a>
+                                </div>
+                            </div>
+                            
+            
+                        </div>
+            
                     </div>
                     <div id="signup">
-                        sign Up
+                        <button id="myBtn1">Login</button>
+                        <div id="myModal1" class="modal1">
+            
+                            <!-- Modal content -->
+                            <div class="modal-content1"
+                            style="background-image: url('./images/login_img.jpeg'); background-repeat: no-repeat; height: auto;">
+                               
+                                <span class="close1">&times;</span>
+                                <div id="main_pop1">
+                                    <div>
+                                        <img src="./images/logo-kindmeal.png" alt="logo" id="logoo1"><br>
+                                        
+                                        Your E-mail <br>
+                                        <input type="email" name="email" class="inps1" id="email"placeholder="Enter your E-mail"><br>
+                                         Your Password <br>
+                                         <input type="password" class="inps1" name="password" id="password" placeholder="Enter your Password"><br>
+                                         <a href="#"><button id="sign_">Login</button></a>
+                                    </div>
+                                </div>
+                                
+                
+                            </div>
+                
+                        </div>
                     </div>
                 </div>
             </div>
             <div id="header_list2">
                 <div id="head_list2">
-                    <a href="#">Home</a>
+                    <a href="./index.html">Home</a>
                     <a href="./Meals_deals/meals.html">Meal Deals</a>
                     <a href="./kind movements/kind.html">KindMoments</a>
                     <a href="#">Recipes</a>
-                    <a href="#">Directory</a>
-                    <a href="#">Articles</a>
-                    <a href="#">Moble App</a>
+                    <a href="./mobile.html">Moble App</a>
                     <a href="./help.html">Help</a>
                 </div>
             </div>
         </div>
-    </header> 
+    </header>
     <section id="main">
-        <div class="slider" id="main-slider"><!-- outermost container element -->
-            <div class="slider-wrapper" >
-             <!-- innermost wrapper element -->
+        <div class="slider" id="main-slider">
+            <div class="slider-wrapper">
                 <img src="https://images.unsplash.com/photo-1496412705862-e0088f16f791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
                 " alt="First" class="slide" /><!-- slides -->
-                <img src="https://images.unsplash.com/photo-1540914124281-342587941389?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Second" class="slide" />
+                <img src="https://images.unsplash.com/photo-1540914124281-342587941389?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    alt="Second" class="slide" />
                 <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80
                 " alt="Third" class="slide" />
                 <img src="https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
                 " alt="four" class="slide" />
-                
+
             </div>
             <div id="offers">
                 Fasation Delicious westurn - 10% OFF
             </div>
             <div class="row">
-                <a href="./Meals_deals/meals.html" class="column">
-                  <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Nature" style="width:100%" >
+                <a href="./Meals_deals/meals.html" class="column" id="column">
+                    <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="Nature" style="width:100%">
                 </a>
-               
-                <a href="./Meals_deals/meals.html" class="column">
-                  <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Snow" style="width:100%">
+
+                <a href="./Meals_deals/meals.html" class="column" id="column">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="Snow" style="width:100%">
                 </a>
-                
-                <a href="./Meals_deals/meals.html" class="column">
-                  <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80" alt="Snow" style="width:100%">
+
+                <a href="./Meals_deals/meals.html" class="column" id="column">
+                    <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80"
+                        alt="Snow" style="width:100%">
                 </a>
-                <a href="./Meals_deals/meals.html" class="column">
-                  <img src="https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Mountains" style="width:100%" >
+                <a href="./Meals_deals/meals.html" class="column" id="column">
+                    <img src="https://images.unsplash.com/photo-1511994714008-b6d68a8b32a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="Mountains" style="width:100%">
                 </a>
-                <a href="./Meals_deals/meals.html" class="column">
-                
-                    <img src="https://media.istockphoto.com/id/1352758440/photo/paper-shopping-food-bag-with-grocery-and-vegetables.jpg?s=1024x1024&w=is&k=20&c=19xRVomvxE2TiMKXiU4t447BgeEQ5LiSZK7ebeArLKk=" alt="Lights" style="width:100%" >
+                <a href="./Meals_deals/meals.html" class="column" id="column">
+
+                    <img src="https://media.istockphoto.com/id/1352758440/photo/paper-shopping-food-bag-with-grocery-and-vegetables.jpg?s=1024x1024&w=is&k=20&c=19xRVomvxE2TiMKXiU4t447BgeEQ5LiSZK7ebeArLKk="
+                        alt="Lights" style="width:100%">
                 </a>
-              </div>
+            </div>
         </div>
-        
+
     </section>
     <section id="middle">
         <div id="news">
@@ -103,15 +162,292 @@
                     <a href="#">&bull;Follow Our FaceBook</a>
                 </div>
             </div>
-            
+            <div class="row">
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/127853511_500056460971216_6625358320206453732_n.jpg?stp=dst-jpg_s720x720&_nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=cT8flw6e3ssAX97i3UO&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfDHLN1Dz1I2SoISj0ernr-9FCagKvkvyh0iRHlflWe-XA&oe=639F7B11
+                  " alt="Nature" style="width:100%">
+                    <p id="link">Salted Caramel Apple Crumble!</p>
+                </a>
 
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/313572633_1222446185289163_301818545381834372_n.jpg?stp=dst-jpg_s720x720&_nc_cat=111&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=YQIGmo8tlTkAX9uSzj1&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfA6XgzblFUG7jAAwGTuZDmnoPfYg8s9qv2bd-r8mxmNew&oe=639F9B35"
+                        alt="Snow" style="width:100%">
+                    <p id="link">Wild Turkeys Go Nuts About Guy On Motorcycle!</p>
+                </a>
+
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/317917398_835831947653314_7294252524021926878_n.jpg?stp=dst-jpg_s720x720&_nc_cat=105&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=hsHMEsxpCYYAX8jh38A&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfBZFCf9PtC9_6GfR9uZSKtHWP9rLpHo_9mxIRijD5slpw&oe=639FDAF0"
+                        alt="Snow" style="width:100%">
+                    <p id="link">Sick Baby Cow Headbutts His Bffs All Day Now</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/318915884_561186642153164_127441678623272126_n.jpg?stp=dst-jpg_s720x720&_nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eQegN0-Nn9AAX9jGU4_&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfBkdFcs-HRY-ute63zuPXXH1hO_TR0B2AFWLIgjdxhFiw&oe=639F271C"
+                        alt="Mountains" style="width:100%">
+                    <p id="link">The Best Air Fryer Recipe</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+
+                    <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/283214530_476021257630109_5388539080951558766_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=_cs7zbisYbwAX9On0jy&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfA6KRaNipOYmCwdBX4v2YsciYROmnML-RfiAqFUrCXzFQ&oe=63A0854B"
+                        alt="Lights" style="width:100%">
+                    <p id="link">Sea Turtle Stuck In Plastic Gets Help At Just The Right Time
+                    </p>
+                </a>
+            </div>
         </div>
-        
+        <div id="news">
+            <div id="news_heading">
+                <div id="heading1">
+                    Yummylicious Moments
+                </div>
+                <div id="news_list">
+                    <a href="./kind movements/kind.html">&bull;Secret Recipes </a>
+                    <a href="./kind movements/kind.html">&bull;Member Hot Picks </a>
+                    <a href="kind movements/kind.html">&bull; Photo Moments</a>
+                </div>
+            </div>
+            <div class="row">
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/moment/24/24753-48157-s.jpg" alt="Nature"
+                        style="width:100%">
+                    <p id="link">Purple Cane Tea Restaurant @ The Gardens</p>
+                    <p class="link">VyVian</p>
+                </a>
+
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/moment/24/24754-48161-s.jpg" alt="Snow" style="width:100%">
+                    <p id="link">Pine 3 Vegetarian Restaurent</p>
+                    <p class="link">VyVian</p>
+                </a>
+
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/moment/24/24752-48154-s.jpg" alt="Snow" style="width:100%">
+                    <p id="link">Pure Heart Vegetarian</p>
+                    <p class="link">William21</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/moment/24/24751-48149-s.jpg" alt="Mountains"
+                        style="width:100%">
+                    <p id="link">MyTOWN Shopping Centre</p>
+                    <p class="link">FatJedi</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+
+                    <img src="https://www.kindmeal.my/photos/moment/24/24750-48146-s.jpg" alt="Lights"
+                        style="width:100%">
+                    <p id="link">Food In The Woods
+                    </p>
+                    <p class="link">VyVian</p>
+                </a>
+            </div>
+        </div>
+        <div id="news1">
+            <div id="news_heading">
+                <div id="heading1">
+                    Discover Restaurants
+                </div>
+                <div id="news_list">
+                    <a href="#">&bull;Vegetarian Directory </a>
+                    <a href="#">&bull;Restaurant Menu </a>
+                    <a href="#">&bull; Food Map</a>
+                </div>
+            </div>
+            <div class="row">
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/item/0/404-4635-s.jpg" alt="Nature" style="width:100%">
+                    <p id="link">The Smoky Spicy Mushroom Olio Spaghetti</p>
+                </a>
+
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/item/0/213-2140-s.jpg" alt="Snow" style="width:100%">
+                    <p id="link">Mushroom Risotto</p>
+                </a>
+
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/item/0/598-8528-s.jpg" alt="Snow" style="width:100%">
+                    <p id="link">Vegan Sugar Free Black Sesame Ice Cream</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/item/0/125-1122-s.jpg" alt="Mountains" style="width:100%">
+                    <p id="link">Green Bean Pancake with Coconut</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+
+                    <img src="https://www.kindmeal.my/photos/item/0/121-1080-s.jpg" alt="Lights" style="width:100%">
+                    <p id="link">Choc Waffle with Homemade Peanut Butter
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div id="news">
+            <div id="news_heading">
+                <div id="heading1">
+                    Amazing Superheroes
+                </div>
+                <div id="news_list">
+                    <a href="#">&bull;&nbsp;Latest Buzz </a>
+                    <a href="#">&bull;&nbsp;Lifestyle Ambassadors</a>
+                    <a href="#">&bull;&nbsp; Win Gifts!</a>
+                </div>
+            </div>
+            <div class="row">
+                <a href="./help.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/member/40/40716-m.jpg">
+                    <p id="link">PinksChiang</p>
+                </a>
+
+                <a href="./help.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/member/12/12292-m.jpg" alt="Snow" style="width:100%">
+                    <p id="link">AngelYew</p>
+                </a>
+
+                <a href="./help.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/member/42/42057-m.jpg" alt="Snow" style="width:100%">
+                    <p id="link">ChenHou</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+                    <img src="https://www.kindmeal.my/photos/member/40/40746-m.jpg" alt="Mountains" style="width:100%">
+                    <p id="link">Green Bean Pancake with Coconut</p>
+                </a>
+                <a href="./Meals_deals/meals.html" class="column">
+
+                    <img src="https://www.kindmeal.my/photos/member/40/40692-m.jpg" alt="Lights" style="width:100%">
+                    <p id="link">CaroleSiewKim
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="last">
+        <div id="last_one">
+            <div id="big_font">Introducing Malaysia's Pioneering Meat-Free Lifestyle Platform</div>
+            <div id="light_logo">
+                <p>Brought to you by</p>
+                <a href="#"><img id="logoimg" src="https://www.kindmeal.my/images/logo-petfinder-v2.png" alt=""></a>
+            </div>
+            <p id="light">
+                Instant coupon & dining. No upfront coupon payment, booking or printing.
+            </p>
+        </div>
+        <div id="last_lists">
+            <div id="last_list">
+                <a href="#"><img src="https://www.kindmeal.my/images/intro_deal.png" alt=""></a>
+                <p id="last_list1">Get Great Deals</p>
+                <p id="last_list2">Show our FREE digital coupons to instantly enjoy exciting deals</p>
+            </div>
+            <div id="last_list">
+                <a href=""><img src="https://www.kindmeal.my/images/intro_kindmoment.png" alt=""></a>
+                <p id="last_list1">Get Great Deals</p>
+                <p id="last_list2">Show our FREE digital coupons to instantly enjoy exciting deals</p>
+            </div>
+            <div id="last_list">
+                <a href="./Meals_deals/meals.html"><img src="https://www.kindmeal.my/images/intro_menu.png" alt=""></a>
+                <p id="last_list1">Get Great Deals</p>
+                <p id="last_list2">Show our FREE digital coupons to instantly enjoy exciting deals</p>
+            </div>
+            <div id="last_list">
+                <a href="#"><img src="https://www.kindmeal.my/images/intro_friends.png" alt=""></a>
+                <p id="last_list1">Get Great Deals</p>
+                <p id="last_list2">Show our FREE digital coupons to instantly enjoy exciting deals</p>
+            </div>
+        </div>
+        <p id="last_lst">
+            Any restaurant or cafe can join KindMeal, vegetarian or not, as long as the deals and menu featured are
+            meat-free.
+            Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!
+        </p>
+        <a href="#"><button id="join_btn">Join KindMeal Now <p>Your tasty journey begins here</p></button>
+        </a>
+    </section>
+    <section id="imgs">
+        <div id="img2">
+            <p>Featured On</p>
+            <img src="https://www.kindmeal.my/images/media-feature2.png" alt="">
+            <div id="black">
+                <img src="https://www.kindmeal.my/images/banner_whykindmeal.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="ff">
+        <div id="footer">
+            <div id="f1">
+                <div id="f1c">
+
+                    <div>
+                        <h4>General</h4>
+                        <p>Home</p>
+                        <p>Sign Up</p>
+                        <p>Business / Restaurants</p>
+                        <p>Advertising</p>
+                        <p>About Kind Meal.my</p>
+                        <p>Help and FAQs</p>
+                        <p>Terms And Conditions </p>
+                        <p>Inspiring Partners</p>
+                        <p>Lifestyle And Ambasodaros</p>
+                        <p>Jobs & Carrers</p>
+                        <p>Contact Us</p>
+
+                    </div>
+                    <div>
+
+                        <h4>Features</h4>
+                        <p>Meat-Free Deals </p>
+                        <p>Tasty Menus</p>
+                        <p>Kind Moments</p>
+                        <p>Meat-Free Recipes</p>
+                        <p>Member Recommendations</p>
+                        <p>Featured Restaurants</p>
+                        <p>Vegetarian & Vegan Directory</p>
+                        <p>Food Map</p>
+                        <p>Become A Superhero</p>
+                        <p>Vegan News & Vegetarian Articles</p>
+                    </div>
+
+                    <div>
+                        <h4>Social Media</h4>
+                        <p>KindMeal Widget</p>
+                        <p>Facebook</p>
+                        <p>Twitter</p>
+                        <p>Instagram</p>
+                    </div>
+
+                    <div>
+                        <h4>Mobile</h4>
+                        <p>iphone & ipod App</p>
+                        <p>Android App</p>
+
+                        <h4 style="margin-top: 14px;">Exciting Offers</h4>
+                        <p>Gadhimai: Ending Mass Slaughter</p>
+                        <p>Free Meals</p>
+                        <p>Food Bloggers</p>
+                        <p>Uber CHIRP</p>
+                        <p>Jane Goodall Contest</p>
+                        <p>Win Digi iPhone 6</p>
+                        <p>Feed The Poor</p>
+
+                    </div>
+                    <div>
+                        <h4>Pet Finder</h4>
+                        <p>Adopt A Pet</p>
+                        <p>Smartphone Apps </p>
+                        <p>WAGazine</p>
+                        <p>Discussion Forum</p>
+                        <p>Medical Fund</p>
+
+                    </div>
+                </div>
+            </div>
+            <div id="f2">
+                <p>Copyright © KindMeal.my, 2014 - 2022. All rights reserved.
+                    <br>
+                    This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy
+                    products or alcohol, please view individual listings for details.
+                </p>
+            </div>
+        </div>
     </section>
 </body>
+
 </html>
 <script src="./script.js">
- 
-
 
 </script>

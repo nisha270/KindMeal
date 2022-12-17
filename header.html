@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Kind Meal</title>
+    <title>kind Moment |MealDeals</title>
+    <link rel = "icon" href = 
+   "./images/icon_img.png" 
+           type = "image/x-icon">
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <header id="header_main">
         <div id="header_container">
@@ -18,43 +19,89 @@
                 </div>
                 <div id="socialy">
                     <div id="header_social">
-                        <a href="#"><img src="https://www.kindmeal.my/images/follow_facebook_grey.png"
+                        <a href="https://www.facebook.com/KindMeal.my"><img src="https://www.kindmeal.my/images/follow_facebook_grey.png"
                                 alt="Facebook"></img></a>
                     </div>
                     <div id="header_social">
-                        <a href="#"><img src="https://www.kindmeal.my/images/follow_twitter_grey.png"
+                        <a href="https://twitter.com/KindMeal"><img src="https://www.kindmeal.my/images/follow_twitter_grey.png"
                                 alt="twitter"></img></a>
                     </div>
                     <div id="header_social">
-                        <a href="#"><img src="https://www.kindmeal.my/images/follow_blog_grey.png" alt="link"></img></a>
+                        <a href="./kind movements/kind.html"><img src="https://www.kindmeal.my/images/follow_blog_grey.png" alt="link"></img></a>
                     </div>
                 </div>
                 <div id="logsign">
-                    <div id="login">
-                        Login
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Sign Up</button>
+            
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+            
+                        <!-- Modal content -->
+                        <div class="modal-content"
+                        style="background-image: url('./images/login_img.jpeg'); background-repeat: no-repeat; height: auto;">
+                           
+                            <span class="close">&times;</span>
+                            <div id="main_pop">
+                                <div>
+                                    <img src="./images/logo-kindmeal.png" alt="logo" id="logoo"><br>
+                                    Youe Full Name <br>
+                                    <input type="text" name="name" class="inps" id="name"placeholder="Enter your Full Name"><br>
+                                   
+                                    Username <br>
+                                    <input type="text" name="username" class="inps" id="username"placeholder="Enter your Nick Name"><br>
+                                     Your E-mail <br>
+                                    <input type="email" name="email" class="inps" id="email"placeholder="Enter your E-mail"><br>
+                                     Your Password <br>
+                                     <input type="password" class="inps" name="password" id="password" placeholder="Enter your Password"><br>
+                                     <a href="#"><button id="sign_">Sign Up</button></a>
+                                </div>
+                            </div>
+                            
+            
+                        </div>
+            
                     </div>
                     <div id="signup">
-                        sign Up
+                        <button id="myBtn1">Login</button>
+                        <div id="myModal1" class="modal1">
+            
+                            <!-- Modal content -->
+                            <div class="modal-content1"
+                            style="background-image: url('./images/login_img.jpeg'); background-repeat: no-repeat; height: auto;">
+                               
+                                <span class="close1">&times;</span>
+                                <div id="main_pop1">
+                                    <div>
+                                        <img src="./images/logo-kindmeal.png" alt="logo" id="logoo1"><br>
+                                        
+                                        Your E-mail <br>
+                                        <input type="email" name="email" class="inps1" id="email"placeholder="Enter your E-mail"><br>
+                                         Your Password <br>
+                                         <input type="password" class="inps1" name="password" id="password" placeholder="Enter your Password"><br>
+                                         <a href="#"><button id="sign_">Login</button></a>
+                                    </div>
+                                </div>
+                                
+                
+                            </div>
+                
+                        </div>
                     </div>
                 </div>
             </div>
             <div id="header_list2">
                 <div id="head_list2">
-                    <a href="#">Home</a>
-                    <a href="#">Meal Deals</a>
-                    <a href="#">KindMoments</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./Meals_deals/meals.html">Meal Deals</a>
+                    <a href="./kind movements/kind.html">KindMoments</a>
                     <a href="#">Recipes</a>
-                    <a href="#">Directory</a>
-                    <a href="#">Articles</a>
-                    <a href="#">Moble App</a>
-                    <a href="#">Help</a>
+                    <a href="./mobile.html">Moble App</a>
+                    <a href="./help.html">Help</a>
                 </div>
             </div>
         </div>
     </header>
 </body>
-
 </html>
-<script>
-    
-</script>
+<script src="./script.js"></script>

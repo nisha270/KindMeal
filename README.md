@@ -31,3 +31,16 @@ https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/317917398_835831947653314_729
 https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/318915884_561186642153164_127441678623272126_n.jpg?stp=dst-jpg_s720x720&_nc_cat=103&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=eQegN0-Nn9AAX9jGU4_&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfBkdFcs-HRY-ute63zuPXXH1hO_TR0B2AFWLIgjdxhFiw&oe=639F271C
 
 https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/283214530_476021257630109_5388539080951558766_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=_cs7zbisYbwAX9On0jy&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AfA6KRaNipOYmCwdBX4v2YsciYROmnML-RfiAqFUrCXzFQ&oe=63A0854B
+
+login
+
+https://media.istockphoto.com/id/1152191026/photo/fast-food-dish-on-blue-background.jpg?s=170667a&w=0&k=20&c=OKSUyakRp4CLpQOVMcnrQzyD4ObTgVlaok73bj9x4k4=
+
+https://thumbs.dreamstime.com/b/fast-food-dish-white-background-take-away-unhealthy-set-including-burgers-sauces-french-fries-donuts-cola-sweets-icecream-148961115.jpg
+
+
+ title icon image
+ <title>kind Moment |MealDeals</title>
+ <link rel = "icon" href = 
+"./images/icon_img.png" 
+        type = "image/x-icon">
