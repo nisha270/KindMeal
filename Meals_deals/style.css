@@ -199,3 +199,23 @@ width: 30em;
     background-color: #E0E0E0;
 }
 
+.ten{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    display: inline;
+    color: black;
+    background-color: white;
+    border-radius:22px;
+    height: 30px;
+    width: 40px;
+    left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
