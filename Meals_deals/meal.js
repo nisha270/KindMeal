@@ -11,9 +11,9 @@ async function run() {
     div.innerHTML += `
             <div class="item">
 
-            <div style="background-position: 10%;">10%</div>
+            <div class="ten">10%</div>
                     
-                    <img src="${item.images}" alt="${item.images}">
+                    <img  class=" img1"src="${item.images}" alt="${item.images}">
                     <div class = "tit">
                         <h3>${item.title}</h3>
                         
