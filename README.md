@@ -30,20 +30,13 @@ This is the clone of Kindmeal.my website which we have done during our Unit 3 co
 ## Website Flow
 
 - Homepage and Sign-in & Login by Nisha
-![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\1.png)
-![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\2.png)
-![](./js201\crazy-reward-9348\SS\4.png)
 
 
 - Iteems pages by vignesh
-![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\3.png)
-![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\4.png)
+
 
 - Meal Details & Cart pages by Sumith
-![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\5.png)
-![](./src//assets/CartPage.png)
+
 
 -  Mobilepage and Help page and Padding by Hassan_Khan
--  ![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\5.png)
--  ![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\6.png)
--  ![](C:\Users\Dell\Desktop\js201\crazy-reward-9348\SS\7.png)
+
